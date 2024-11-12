@@ -1,6 +1,6 @@
 <?php
 
-require_once '/home/felipe/projetos-pessoais/devsRN/src/models/Pagamento.php';
+require_once '../models/Pagamento.php';
 
 class PagamentoController {
     private $pagamentoModel;

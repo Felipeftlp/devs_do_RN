@@ -1,6 +1,6 @@
 <?php
     
-    require_once '/home/felipe/projetos-pessoais/devsRN/src/models/Associado.php';
+    require_once '../models/Associado.php';
     
     class AssociadoController {
         private $associadoModel;

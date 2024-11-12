@@ -1,6 +1,6 @@
 <?php
     
-    require_once '/home/felipe/projetos-pessoais/devsRN/src/models/Anuidade.php';
+    require_once '../models/Anuidade.php';
     
     class AnuidadeController {
         private $anuidadeModel;
