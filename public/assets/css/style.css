@@ -1,0 +1,138 @@
+body {
+    background: linear-gradient(180deg, #63d396 5%, rgba(172, 221, 168, 0.83) 76.91%, #bfe9bb 100%);
+}
+
+.formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.title {
+    margin: 20px;
+}
+    
+.myForm {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 20px 18px 36px rgba(0, 0, 0, 0.225);
+    width: 25%;
+    text-align: center;
+}
+
+.formGroup {
+    text-align: left;
+}
+    
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #262626;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+}
+  
+input {
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #ddd;
+    border-radius: 9px;
+    background-color: #F1F1F1;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+}
+    
+.formButton {
+    background-color: #63d396;
+    color: #FAFAFA;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    width: 100%;
+    height: 10%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+}
+    
+.formButton:hover {
+    background-color: #399161;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.tableContainer {
+    display: grid;
+    place-items: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #FAFAFA;
+    border-radius: 18px;
+    box-shadow: 20px 18px 36px rgba(0, 0, 0, 0.225);
+}
+
+th {
+    padding: 10px;
+    padding-right: 50px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    margin: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+p {
+    margin: 20px 5px;
+}
+
+.backButton {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    width: 100%;
+    height: 10%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.backButton:hover {
+    background-color: #eeebeb;
+}
+
+.deleteButton {
+    background-color: #d36363;
+    color: #FAFAFA;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    width: 100%;
+    height: 10%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.deleteButton:hover {
+    background-color: #913939;
+}
