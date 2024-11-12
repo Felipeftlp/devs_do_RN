@@ -4,8 +4,8 @@ define('BASE_URL', '/devsRN');
 
 $host = 'localhost';
 $db   = 'devs_do_rn';
-$user = 'postgres';
-$pass = 'Bolino123';
+$user = 'seu_usuario';
+$pass = 'sua_senha';
 $port = '5432';
 
 $dsn = "pgsql:host=$host;port=$port;dbname=$db";
